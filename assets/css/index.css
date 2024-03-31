@@ -1,0 +1,33 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+
+body {
+    text-align: center;
+}
+h1{
+    padding:20px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.card {
+    border:1px solid #3c3c3c;
+    width:80%;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.card-img-top{
+    width:100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
