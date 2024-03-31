@@ -9,9 +9,9 @@ Este proyecto consta de dos ejercicios simples de JavaScript que pueden ser úti
 Para probar los ejercicios, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local usando Git:
-bash
-Copy code
+```bash Copy code
 git clone https://github.com/toffycaluga/condicionales-javascript.git
+```
 Abre el archivo index.html en tu navegador web.
 
 Desde el índice (index.html), puedes acceder a cada ejercicio haciendo clic en los enlaces correspondientes.
@@ -21,9 +21,9 @@ Desde el índice (index.html), puedes acceder a cada ejercicio haciendo clic en 
 - **colorChange.html**: Implementación del ejercicio de cambio de color.
 - **ageValidation.html**: Implementación del ejercicio de validación de edad.
 ## Tecnologías Utilizadas
-- $${\color{red}HTML}$$
-- $${\color{#00FFFF}CSS}$$
-- $${\color{#ffff00}JavaScript}$$
+- $${\color{red} HTML}$$
+- $${\color{#00FFFF} CSS}$$
+- $${\color{#ffff00} JavaScript}$$
 
 ## Contribuciones
 ¡Siéntete libre de contribuir a este proyecto! Puedes agregar más ejercicios, mejorar el diseño, optimizar el código, o cualquier otra mejora que consideres pertinente.
