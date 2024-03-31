@@ -12,9 +12,28 @@ Para probar los ejercicios, sigue estos pasos:
 ```bash Copy code
 git clone https://github.com/toffycaluga/condicionales-javascript.git
 ```
+Una vez clonado el repositorio, navega al directorio del proyecto:
+
+```bash Copy code
+cd condicionales-javascript
+``` 
+### (opcion 1)
+puedes abrir visual studio code con el comando 
+```bash Copy code
+code .
+```
+
+Abre el archivo con liveServer en tu navegador web.
+
+Desde el index.html, puedes acceder a cada ejercicio haciendo clic en los enlaces correspondientes.
+
+### (opcion 2) 
 Abre el archivo index.html en tu navegador web.
 
 Desde el índice (index.html), puedes acceder a cada ejercicio haciendo clic en los enlaces correspondientes.
+
+### (opcion 3)
+por determinar
 
 ## Contenido del Repositorio
 - **index.html**: Página principal que contiene enlaces a cada ejercicio.
