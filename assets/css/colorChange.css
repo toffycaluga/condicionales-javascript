@@ -1,0 +1,36 @@
+html,body{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    text-align:center;
+    background-color:#ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+body :first-child{
+    padding: 10x;
+    margin: 20px;
+    text-align: start;
+    align-items: left;
+}
+/* Estilos para el cuadro de color */
+#colorBox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+select{
+    background-color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}

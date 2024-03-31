@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/colorChange.css">
+
+    <title>Cambio de Color</title>
+</head>
+
+<body>
+    <div>
+        <a href="/">volver</a>
+    </div>
+    <!-- Div que representa el cuadro de color -->
+    <h1>Cambiando color</h1>
+    <div id="colorBox"></div>
+
+    <!-- Select para elegir colores -->
+    <label for="colorSelect">Elija un color:</label>
+    <select id="colorSelect" onchange="changeColor()">
+        <option value="default" selected>Selecciona un color</option>
+        <option value="red">Rojo</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+        <option value="yellow">Amarillo</option>
+    </select>
+
+    <!-- Contenedor para el mensaje de color -->
+    <div id="colorMessage"></div>
+
+    <script>
+        // Función para cambiar el color del cuadro y mostrar un mensaje personalizado
+        function changeColor() {
+            // Obtener el valor seleccionado del select
+            const selectedColor = document.getElementById('colorSelect').value;
+            // Obtener el elemento del cuadro de color y aplicar el color seleccionado
+            document.getElementById('colorBox').style.backgroundColor = selectedColor;
+
+            // Mostrar mensaje personalizado según el color seleccionado
+            let message = '';
+            if (selectedColor === 'red') {
+                message = '¡Has seleccionado el color rojo!';
+            } else if (selectedColor === 'blue') {
+                message = '¡Has seleccionado el color azul!';
+            } else if (selectedColor === 'green') {
+                message = '¡Has seleccionado el color verde!';
+            } else if (selectedColor === 'yellow') {
+                message = '¡Has seleccionado el color amarillo!';
+            }
+            document.getElementById('colorMessage').innerText = message;
+        }
+    </script>
+</body>
+
+</html>
