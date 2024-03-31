@@ -21,9 +21,10 @@ Desde el índice (index.html), puedes acceder a cada ejercicio haciendo clic en 
 - **colorChange.html**: Implementación del ejercicio de cambio de color.
 - **ageValidation.html**: Implementación del ejercicio de validación de edad.
 ## Tecnologías Utilizadas
-- <p style="color:#ff0000">HTML</p>
-- <p style="color:#00ffff">CSS </p>
-- <p style="color:#ffff00">JavaScript</p>
+- $${\color{red}HTML}$$
+- $${\color{#00FFFF}CSS}$$
+- $${\color{#ffff00}JavaScript}$$
+
 ## Contribuciones
 ¡Siéntete libre de contribuir a este proyecto! Puedes agregar más ejercicios, mejorar el diseño, optimizar el código, o cualquier otra mejora que consideres pertinente.
 
