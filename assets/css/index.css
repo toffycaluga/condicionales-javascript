@@ -28,7 +28,7 @@ ul {
 
 }
 ul>li{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     width: 80%;
 }
 @media (min-width: 768px){
@@ -40,7 +40,7 @@ ul>li{
     }   
     ul>li{
         width: 25%;
-        border:3px solid red ;
+        /* border:3px solid red ; */
         margin: 20px;
     }
 }
