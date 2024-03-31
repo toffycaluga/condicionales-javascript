@@ -4,11 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Validación de Edad</title>
+    <link rel="stylesheet" href="assets/css/ageValidation.css">
 </head>
 
 <body>
+    <div>
+        <a href="/">volver</a>
+    </div>
+    <h1>
+        Validador de edad
+    </h1>
+    <!-- Formulario para ingresar la edad -->
+    <form>
+        <label for="ageInput">Ingresa tu edad:</label>
+        <input type="number" id="ageInput" required>
+        <button type="button" onclick="checkAge()">Enviar</button>
+    </form>
+    <!-- Párrafo para mostrar el mensaje de validación -->
+    <p id="message"></p>
 
+    <script>
+        // Función para validar la edad ingresada
+        function checkAge() {
+            // Obtener la edad ingresada por el usuario
+            const age = parseInt(document.getElementById('ageInput').value);
+            // Obtener el elemento para mostrar el mensaje de validación
+            const message = document.getElementById('message');
+
+            // Validar la edad y mostrar el mensaje correspondiente
+            if (age >= 18 && age < 40) {
+                message.textContent = '¡Bienvenido, adulto joven!';
+            } else if (age >= 40) {
+                message.textContent = '¡Bienvenido!';
+            } else {
+                message.textContent = 'Debes ser mayor de 18 años para ingresar.';
+            }
+        }
+    </script>
 </body>
 
 </html>

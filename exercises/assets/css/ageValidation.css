@@ -1,0 +1,30 @@
+html,body{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    text-align:center;
+    background-color:#ccc;
+}
+body :first-child{
+    padding: 10x;
+    margin: 20px;
+    text-align: start;
+}
+form{
+    margin-top: 100px;
+}
+button{
+    background-color:#0079ff;
+    padding:10px;
+    color:#fff;
+    border-radius:10px;
+    transition:background-color .2s ease;
+}
+button:hover{
+    background-color:#00ff;
+    padding:10px;
+    color:#fff;
+    border-radius:10px;
+}
